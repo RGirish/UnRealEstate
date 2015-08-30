@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dp4">4dp</dimen>
+    <dimen name="dp200">200dp</dimen>
+    <dimen name="dp250">250dp</dimen>
+    <dimen name="dp300">300dp</dimen>
+    <dimen name="dp320">320dp</dimen>
+    <dimen name="dp325">325dp</dimen>
+    <dimen name="dp330">330dp</dimen>
+    <dimen name="dp360">360dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp20">20dp</dimen>
+    <dimen name="dp5">5dp</dimen>
+    <dimen name="dp1">1dp</dimen>
+</resources>
