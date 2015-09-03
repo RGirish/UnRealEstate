@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.samskrut.omnipresence" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.sensor.compass" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppThemeNoAb" >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ProjectList"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".MyVrView"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".MyVrVideoView"
+            android:screenOrientation="landscape" />
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="d2e56a208ecc3bb49afc56cd232043b8ab1976f1" />
+
+        <activity
+            android:name=".Countdown"
+            android:label="@string/title_activity_countdown"
+            android:screenOrientation="landscape" >
+        </activity>
+
+        <activity
+            android:name=".YoutubeStreamActivity"
+            android:label="@string/title_activity_youtube_stream" >
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Splash">
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Instructions">
+        </activity>
+
+    </application>
+
+</manifest>

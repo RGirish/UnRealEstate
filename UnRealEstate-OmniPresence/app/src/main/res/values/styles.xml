@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+    </style>
+
+    <style name="AppThemeNoAb" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+    </style>
+
+</resources>
